@@ -162,25 +162,49 @@
 <body>
 
     <header>
-        <h1>DBMS Practical Hub</h1>
-        <p>Advanced Database Management System Assignments</p>
+        <h1>DBMS Practicals</h1>
+        <p>DATABASE 5 to 10 PRACTICALS</p>
     </header>
 
     <div class="container" id="practical-grid">
         </div>
 
     <footer>
-        &copy; 2024 DBMS Project | Designed for Excellence
+        &copy; 2026 DBMS Project | Designed for Excellence
     </footer>
 
     <script>
-        const practicals = [
-            { id: 5, title: "PL/SQL Blocks", desc: "Introduction to PL/SQL, variables, and basic control structures." },
-            { id: 6, title: "Cursors & Exception Handling", desc: "Implementing Implicit/Explicit cursors and handling runtime errors." },
-            { id: 7, title: "Procedures & Functions", desc: "Creating modular code using stored procedures and returnable functions." },
-            { id: 8, title: "Database Triggers", desc: "Automating actions on Insert, Update, and Delete operations." },
-            { id: 9, title: "Transaction Management", desc: "Studying ACID properties using Commit, Rollback, and Savepoint." },
-            { id: 10, title: "Database Security", desc: "Implementing DCL commands like GRANT and REVOKE for access control." }
+       const practicals = [
+            { 
+                id: 5, 
+                title: "JOIN Operations and Views", 
+                desc: "Perform various types of JOIN operations to extract meaningful relationships between tables. Create and manage different database views." 
+            },
+            { 
+                id: 6, 
+                title: "Subqueries", 
+                desc: "Write and execute subqueries to retrieve data from one table based on results from another." 
+            },
+            { 
+                id: 7, 
+                title: "Stored Procedures or Function with Cursors", 
+                desc: "Create and execute stored procedures / function using cursors." 
+            },
+            { 
+                id: 8, 
+                title: "Database Triggers", 
+                desc: "Implement and test triggers to maintain data integrity in database." 
+            },
+            { 
+                id: 9, 
+                title: "CRUD Operations using MongoDB", 
+                desc: "Design and implement basic Create, Read, Update, and Delete (CRUD) operations using MongoDB. Use the save method and logical operators where necessary." 
+            },
+            { 
+                id: 10, 
+                title: "Aggregation and Indexing in MongoDB", 
+                desc: "Design and execute MongoDB queries using aggregation and indexing techniques with suitable examples." 
+            }
         ];
 
         const grid = document.getElementById('practical-grid');
